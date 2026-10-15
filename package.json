@@ -1,0 +1,14 @@
+{
+  "name": "jimmy-server",
+  "version": "1.0.0",
+  "description": "Jimmy's own backend: holds the Claude API key, free-tier rate limiting, and a spot to plug in premium membership later.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
